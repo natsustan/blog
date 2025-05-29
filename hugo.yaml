@@ -12,11 +12,7 @@ minify:
   minifyOutput: true
 
 params:
-<<<<<<< HEAD
-  env: development # to enable google analytics, opengraph, twitter-cards and schema.
-=======
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
->>>>>>> parent of 969f511 (update)
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
