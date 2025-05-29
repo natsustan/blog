@@ -12,7 +12,11 @@ minify:
   minifyOutput: true
 
 params:
+<<<<<<< HEAD
   env: development # to enable google analytics, opengraph, twitter-cards and schema.
+=======
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+>>>>>>> parent of 969f511 (update)
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
@@ -89,13 +93,13 @@ params:
     - name: github
       url: "https://github.com/"
 
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "" # 清空 Google Analytics 验证标签
-  #   bing:
-  #     SiteVerificationTag: ""
-  #   yandex:
-  #     SiteVerificationTag: ""
+  analytics:
+    google:
+      SiteVerificationTag: "" # 清空 Google Analytics 验证标签
+    bing:
+      SiteVerificationTag: ""
+    yandex:
+      SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
