@@ -14,7 +14,7 @@ languages:
 menu:
   main:
     - identifier: posts
-      name: 文章
+      name: 博客
       url: /posts/
       weight: 10
     - identifier: tags
@@ -73,7 +73,7 @@ params:
     safari_pinned_tab: favicon.svg
 
   homeInfoParams:
-    Title: 你好，我是 Spike。
+    Title: Hi, 这里是 Spike。
     Content: |
       我是 Spike。
 

@@ -4,7 +4,7 @@ set -euo pipefail
 
 readonly HUGO_VERSION="0.164.0"
 
-if [[ -f .gitmodules ]]; then
+if [[ -f .gitmodules ]] && git submodule status --recursive | grep '^-' >/dev/null; then
   git submodule update --init --recursive
 fi
 
