@@ -3,6 +3,12 @@
   "compatibility_date": "2026-07-29",
   "workers_dev": true,
   "preview_urls": true,
+  "routes": [
+    {
+      "pattern": "spikezhang.me/*",
+      "zone_name": "spikezhang.me"
+    }
+  ],
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page",
